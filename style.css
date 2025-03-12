@@ -54,19 +54,18 @@ nav a:hover, nav a.active{
     border-bottom: 3px solid red;
 }
 @media(max-width:995px){
-    /*nav {
+    nav {
         position: absolute;
-        display: none;
+        display: ;
         top: 0;
         right: 0;
-        width: 40%;
+        width: 30%;
         border-left: 3px solid red;
         border-bottom: 3px solid red;
         border-bottom-left-radius: 2rem;
         padding: 1rem;
-        background-color: #161616;
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
-    }*/
+    }
     nav.active{
         display: block;
     }
@@ -79,6 +78,10 @@ nav a:hover, nav a.active{
         padding: 1rem;
         border-radius:0.5rem ;
         border-bottom: 0.5rem solid red;
+    }
+    .logo {
+        position: fixed;
+        top: 1vh;
     }
 }
 section{
