@@ -81,7 +81,7 @@ nav a:hover, nav a.active{
     }
     .logo {
         position: fixed;
-        top: 0;
+        top: 1vh;
     }
 }
 section{
